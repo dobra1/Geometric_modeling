@@ -33,21 +33,21 @@ int main(int argc, char* argv[])
     // s: növelés szorzója
     float s = 1;
 
-    printf("Adja meg a forgatás középpontjának x koordinátáját! ");
+    printf("Adja meg a forgatas kozeppontjanak x koordinatajat: ");
     scanf("%f", &ox);
-    printf("Adja meg a forgatás középpontjának y koordinátáját! ");
+    printf("Adja meg a forgatas kozeppontjanak y koordinatajat:");
     scanf("%f", &oy);
-    printf("Adja meg a forgatás szögét fokokban! ");
+    printf("Adja meg a forgatas szoget fokokban: ");
     scanf("%f", &R);
-    printf("Adja meg, hányszorosára nagyítsuk a háromszögeket! ");
+    printf("Adja meg, hanyszorosara nagyitsuk a haromszogeket: ");
     scanf("%f", &s);
-    printf("Adja meg az eltolás x koordinátáját! ");
+    printf("Adja meg az eltolas x koordinatajat: ");
     scanf("%f", &tx);
-    printf("Adja meg az eltolás y koordinátáját! ");
+    printf("Adja meg az eltolas y koordinatajat: ");
     scanf("%f", &ty);
 
     SDL_WindowFlags flags = SDL_WINDOW_OPENGL | SDL_WINDOW_RESIZABLE;
-    window = SDL_CreateWindow("An SDL3 window", 640,480,SDL_WINDOW_OPENGL
+    window = SDL_CreateWindow("An SDL3 window", 840,680,SDL_WINDOW_OPENGL
     );
 
     SDL_Window* SDL_CreateWindow(const char* title, int w, int h, Uint32 flags);
@@ -61,7 +61,7 @@ int main(int argc, char* argv[])
         printf("[ERROR] Unable to create the OpenGL context!\n");
     }
 
-    glClearColor(0, 0, 0, 1);
+    glClearColor(0.5, 0.5, 0.5, 1);
     glMatrixMode(GL_PROJECTION);
     glClear(GL_COLOR_BUFFER_BIT);
     glLoadIdentity();
@@ -83,6 +83,7 @@ int main(int argc, char* argv[])
     glTranslatef(-ox, -oy, 0);
     haromszogRajz(A, B, C);
     glPopMatrix();
+
 
     /*
      * Második háromszög kirajzolása.
