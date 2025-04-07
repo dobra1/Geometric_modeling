@@ -1,0 +1,9 @@
+﻿  circle.cpp
+C:\Users\Gabor\Documents\Egyetem\MSc\Geometriai modellezés és alkalmazá GEAGT232-ML\Geometric_modeling\Feladatok_1\circle.cpp(11,28): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+C:\Users\Gabor\Documents\Egyetem\MSc\Geometriai modellezés és alkalmazá GEAGT232-ML\Geometric_modeling\Feladatok_1\circle.cpp(11,23): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+C:\Users\Gabor\Documents\Egyetem\MSc\Geometriai modellezés és alkalmazá GEAGT232-ML\Geometric_modeling\Feladatok_1\circle.cpp(11,18): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+C:\Users\Gabor\Documents\Egyetem\MSc\Geometriai modellezés és alkalmazá GEAGT232-ML\Geometric_modeling\Feladatok_1\circle.cpp(75,25): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\Gabor\Documents\Egyetem\MSc\Geometriai modellezés és alkalmazá GEAGT232-ML\Geometric_modeling\Feladatok_1\circle.cpp(75,22): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\Gabor\Documents\Egyetem\MSc\Geometriai modellezés és alkalmazá GEAGT232-ML\Geometric_modeling\Feladatok_1\circle.cpp(83,27): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\Gabor\Documents\Egyetem\MSc\Geometriai modellezés és alkalmazá GEAGT232-ML\Geometric_modeling\Feladatok_1\circle.cpp(83,24): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  Feladatok.vcxproj -> C:\Users\Gabor\Documents\Egyetem\MSc\Geometriai modellezés és alkalmazá GEAGT232-ML\Geometric_modeling\Feladatok_1\x64\Debug\Feladatok.exe
