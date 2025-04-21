@@ -22,15 +22,14 @@ int main(int argc, char* argv[])
     int width = 800;
     int height = 600;
 
-    /*ox, oy: a forgatás középpontja*/
     float ox = 420;
     float oy = 310;
-    // R: forgatás szöge
+    
     float R = -90;
-    // tx, ty: eltolás mértéke
+  
     float tx = 0;
     float ty = 0;
-    // s: növelés szorzója
+  
     float s = 1;
 
     printf("Adja meg a forgatas kozeppontjanak x koordinatajat: ");
